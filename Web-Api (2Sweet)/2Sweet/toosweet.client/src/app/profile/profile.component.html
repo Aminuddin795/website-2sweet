@@ -1,0 +1,79 @@
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-merah w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+  <div class="w3-container">
+      <a href="#" ><img class="croppic img-fluid" src="../../assets/img/logo.png"w routerLink="frontpage">>  </a><p></p>
+  </div>
+
+  <div class="w3-bar-block">
+    <a  onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white" routerLink="/">Find Friend</a>
+    <a  onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white" routerLink="/">My Profile</a> 
+    <a  onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white" routerLink="/" >Message</a> 
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">☰</a>
+  <span>Company Name</span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+  
+ 
+  <!-- Services -->
+  <div class="w3-container" id="services" style="margin-top:75px">
+    
+  <h1>PROFILE</h1>
+
+  <p></p>
+  <p></p>
+  <p></p>
+  <p></p>
+  <p></p>
+
+  <form name="updateacc" style="border:5px " >
+    <div class="container">
+      <h3> Update My Account</h3>
+      <hr>
+  
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="Email" required>
+
+      <label for="psw"><b> New Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <p><label for="name1"><b>Full name</b></label>
+      <input type="text" placeholder="Enter firstname" name="name1" required>
+  
+      <label for="Gender"><b>Gender</b></label>
+        <p><input type="radio" name="gender" value="male" checked> Male<br>
+          <input type="radio" name="gender" value="female"> Female<br></p>
+
+      <label for="birthday"><b>birthday</b></label>
+      <input type="month" name="bdaymonth">
+
+      <p>
+        <label for = "exampleInputFile">Upload Image Profile: </label>
+        <input type="file"  size="25" accept="image/*">
+      </p>
+
+     
+      <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+  
+      <div class="clearfix">
+        <button type="button" class="cancelbtn" routerLink="/">Cancel</button>
+        <button type="submit" class="signupbtn">Sign Up</button>
+      </div>
+    </div>
+  </form>
+  
+  </div>
+  
+
+</div>

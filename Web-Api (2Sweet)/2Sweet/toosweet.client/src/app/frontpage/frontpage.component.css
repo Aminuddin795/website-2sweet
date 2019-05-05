@@ -1,0 +1,39 @@
+ /* Extra style for the cancel button (red) */
+ .w3-merah {
+  
+    background-color: #fc6d6d;
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+  }
+
+  
+ /* inbox and noti */
+  .notification {
+    background-color: #fc6d6d;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    border-radius: 2px;
+  }
+  
+  .notification:hover {
+    background: red;
+  }
+  
+  .notification .badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    background: red;
+    color: white;
+
+  }
+ /* Extra style for the cancel button (red) */
+ .croppic {
+  width: 50%;
+  height: 50%;
+  }

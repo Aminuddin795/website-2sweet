@@ -1,0 +1,48 @@
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-merah w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+  <div class="w3-container">
+      <a href="#" ><img class="croppic img-fluid" src="../../assets/img/logo.png"w routerLink="frontpage">>  </a><p></p>
+  </div>
+
+  <div class="w3-bar-block">
+    <a  onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white" routerLink="frontpage">Find Friend</a>
+    <a  onclick="w3_close()"class="w3-bar-item w3-button w3-hover-white" routerLink="profile">My Profile</a> 
+    <a  onclick="w3_close()"class="w3-bar-item w3-button w3-hover-white" routerLink="message" >Message</a> 
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">☰</a>
+  <span>Company Name</span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+  
+ 
+  <!-- Services -->
+ 
+  <div class="w3-container" id="services" >
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <a class="navbar-brand" href="#">Search Partner</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+       
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search">
+          <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      
+    </nav>
+  
+  </div>
+
+</div>

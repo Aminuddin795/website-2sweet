@@ -1,0 +1,58 @@
+
+  <!-- Header -->
+  <header class="w3-container w3-red w3-center" style="padding:8px 16px">
+      <img class="croppic img-fluid" src="../../assets/img/logo.png" style="width:150px;height:150px;">
+   
+   </header>
+   
+   <!-- First Grid -->
+   <div class="w3-row-padding w3-padding-64 w3-container">
+     
+    <form name="createacc" style="border:1px solid #ccc" >
+      <div class="container">
+        <h1> Create a new account</h1>
+        <p>Join us to for free!!</p>
+        <hr>
+    
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="Email" required>
+
+        <label for="psw"><b> New Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+
+        <p><label for="name1"><b>First name</b></label>
+        <input type="text" placeholder="Enter firstname" name="name1" required>
+
+        <label for="name2"><b>Last name</b></label>
+        <input type="text" placeholder="Enter lastname" name="name2" required></p>
+    
+        <label for="Gender"><b>Gender</b></label>
+          <p><input type="radio" name="gender" value="male" checked> Male<br>
+            <input type="radio" name="gender" value="female"> Female<br></p>
+
+        <label for="birthday"><b>birthday</b></label>
+        <input type="month" name="bdaymonth">
+
+        <p><label for="phonenum"><b>Phone Number</b></label>
+          <input type="number" placeholder="Enter Number" name="phonenum" required>
+        </p>
+
+        <p>
+          <label for = "exampleInputFile">Upload Image Profile: </label>
+          <input type="file"  size="25" accept="image/*">
+        </p>
+
+       
+        <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+    
+        <div class="clearfix">
+          <button type="button" class="cancelbtn" routerLink="/">Cancel</button>
+          <button type="submit" class="signupbtn">Sign Up</button>
+        </div>
+      </div>
+    </form>
+     
+     
+ </div>
+ 
+ 
